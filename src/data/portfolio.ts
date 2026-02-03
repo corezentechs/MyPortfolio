@@ -61,7 +61,7 @@ export const experience = [
 export const education = [
   {
     id: 1,
-    institution: "International Institute of Business Studies - IIBS, Bengaluru",
+    institution: "International Institute of Business Study - IIBS, Bengaluru",
     degree: "PGDM (Post Graduate Diploma in Management)",
     field: "Logistics and Supply Chain Management",
     period: "July 2023 - September 2025"

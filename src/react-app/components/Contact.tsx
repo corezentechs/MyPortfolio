@@ -8,7 +8,7 @@ export default function Contact() {
         <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
           Get in Touch
         </h2>
-        
+
         <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8 md:p-12">
           <div className="grid md:grid-cols-2 gap-8 mb-8">
             <div className="flex items-start gap-4">
@@ -25,7 +25,7 @@ export default function Contact() {
                 </a>
               </div>
             </div>
-            
+
             <div className="flex items-start gap-4">
               <div className="p-3 rounded-xl bg-gradient-to-br from-blue-500/20 to-purple-500/20 border border-blue-500/30">
                 <Phone className="w-6 h-6 text-blue-400" />
@@ -86,7 +86,7 @@ export default function Contact() {
         </div>
 
         <div className="mt-12 text-center text-slate-500">
-          <p>© 2024 {profile.name}. Built with Mocha.</p>
+          <p>© 2026 {profile.name}. All rights reserved.</p>
         </div>
       </div>
     </section>
