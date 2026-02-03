@@ -1,0 +1,20 @@
+
+> mocha-app@0.0.0 dev
+> vite
+
+There was an access violation in the runtime.
+On Windows, this may be caused by an outdated Microsoft Visual C++ Redistributable library.
+Check that you have the latest version installed.
+See https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist.
+error when starting dev server:
+MiniflareCoreError [ERR_RUNTIME_FAILURE]: The Workers runtime failed to start. There is likely additional logging output above.
+    at #assembleAndUpdateConfig (C:\Users\sudee\Downloads\Adarsh Kumar Ippili - Portfolio\node_modules\miniflare\dist\src\index.js:81309:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Mutex.runWith (C:\Users\sudee\Downloads\Adarsh Kumar Ippili - Portfolio\node_modules\miniflare\dist\src\index.js:51730:48)
+    at async #waitForReady (C:\Users\sudee\Downloads\Adarsh Kumar Ippili - Portfolio\node_modules\miniflare\dist\src\index.js:81397:5)
+    at async _Miniflare.dispatchFetch (C:\Users\sudee\Downloads\Adarsh Kumar Ippili - Portfolio\node_modules\miniflare\dist\src\index.js:81568:5)
+    at async CloudflareDevEnvironment.initRunner (file:///C:/Users/sudee/Downloads/Adarsh%20Kumar%20Ippili%20-%20Portfolio/node_modules/@cloudflare/vite-plugin/dist/index.mjs:21525:20)
+    at async Promise.all (index 0)
+    at async BasicMinimalPluginContext.configureServer (file:///C:/Users/sudee/Downloads/Adarsh%20Kumar%20Ippili%20-%20Portfolio/node_modules/@cloudflare/vite-plugin/dist/index.mjs:26198:5)
+    at async _createServer (file:///C:/Users/sudee/Downloads/Adarsh%20Kumar%20Ippili%20-%20Portfolio/node_modules/vite/dist/node/chunks/config.js:25603:86)
+    at async CAC.<anonymous> (file:///C:/Users/sudee/Downloads/Adarsh%20Kumar%20Ippili%20-%20Portfolio/node_modules/vite/dist/node/cli.js:572:18)
